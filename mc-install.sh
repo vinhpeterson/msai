@@ -17,8 +17,7 @@ wget https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/308/downloa
 # running the jar file
 java -jar paper-1.17.1-308.jar nogui
 # that will generate your needed files, but you will need to change eula.txt. now you can clone your own eula.txt and replace the old one with the new one.
-cd
 sudo rm -r eula.txt
 sudo git clone https://github.com/vinhpeterson/presetup-eula.git
 # the server should be setup and ready to run
-echo"Your server is setup! Run the command sudo java -jar paper-1.17.1-308.jar nogui to get your server running or run the mc-startup.sh"
+echo "Your server is setup! Run the command sudo java -jar paper-1.17.1-308.jar nogui to get your server running or run the mc-startup.sh"
