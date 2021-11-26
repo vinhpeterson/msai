@@ -22,6 +22,7 @@ cd presetup-eula
 sudo mv eula.txt ~/mc-server
 cd
 cd mc-server
+sudo rm -r presetup-eula
 # the server should be setup and ready to run
 GREEN='\033[0;32m'
 printf "${GREEN}"
