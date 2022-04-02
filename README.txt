@@ -6,4 +6,3 @@ chmod 777 mc-install.sh
 Then you can run mc-install.sh. DO NOT run it as root, because that will
 create the files in the root directory and will be a pain to find
 and run.
-Good luck and have fun!
